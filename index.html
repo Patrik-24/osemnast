@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <p>Zadaj prvé čislo:</p>
+        <input type="number" id="number1">
+        <br>
+        <p>Zadaj druhe čislo:</p>
+        <input type="number" id="number2">
+        <br>
+        <label>operacia:</label>
+        <select id="znamienka">
+          <option value="add">+</option>
+          <option value="subtract">-</option>
+          <option value="multiply">*</option>
+          <option value="divide">/</option>
+        </select>
+        <br>
+        <button onclick="calculate()">=</button>
+        <input type="text" id="result" readonly>
+        
+        <br>
+        <h3>Pamäť:</h3>
+        <p id="pamat"></p>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

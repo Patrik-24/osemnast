@@ -1,0 +1,8 @@
+body {
+    background: url(back.jpg);
+}
+.container {
+    display: grid;
+    max-width: 150px;
+    margin: 15rem auto;
+}
